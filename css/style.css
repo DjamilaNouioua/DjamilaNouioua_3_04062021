@@ -1,0 +1,571 @@
+body{
+    font-family: "Roboto";
+}
+
+strong{
+        font-weight: 800px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* LOADING SPINNER TEST */
+ /* .loading{
+    width: 50px;
+    height: 50px;
+    border: 10px solid lightgrey ;
+    border-top-color: #9356DC;
+    border-radius: 50%;
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(1turn);
+    }
+}  */
+
+/* HEADER */
+
+
+.header-logo{   
+                display: flex;
+                padding-left: 70px;
+                width: 50%;
+                object-fit: cover;
+                margin-bottom: 10px;        
+}
+
+
+/* SECTION 1 : PRESENTATION */
+
+
+.presentation-map-box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: lightgrey;
+                    width: 100%;                   
+}
+
+.fa-map-marker-alt{
+                    font-size: 20px;
+                    padding-left: 30px;
+                    padding-right: 20px;
+                    
+}
+
+.presentation{
+    
+                background-color: #F2F2F2;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 40px;
+                text-align: center;
+}
+
+.presentation-btn{
+                    color: white;
+                    font-weight: bold;
+                    font-size: 15px;
+                    background-image: linear-gradient(rgb(248, 77, 220), darkviolet);
+                    width: 90%;
+                    border: none;
+                    border-radius: 30px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    margin-top: 15px;
+                    box-shadow: 2px 2px 10px grey;
+}
+
+.presentation-title{
+                    margin-top: 0px;
+                    padding-top: 20px;
+}
+
+.presentation-btn:hover{
+    box-shadow: 5px 5px 20px rgb(206, 52, 206);
+
+
+}
+         
+
+
+/* SECTION 2 : FONCTIONNEMENT */
+
+.fonction-title{
+                margin-left: 20px;
+}
+
+
+.fonction-number{
+                    color: white;
+                    font-weight: bold;
+                    background-color:#9356DC;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 100%;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    right: 30px;
+
+}
+
+
+
+.fonction-item:hover{
+                        background-color: rgba(187, 144, 206, 0.404);
+                        box-shadow: 4px 5px 20px rgb(84, 54, 97);
+
+    
+}
+
+/* .fonction-logo:hover{
+color: darkviolet;
+
+}  */
+
+.fonction-item-choose{
+                        background-color: #F2F2F2;
+                        width: 100%;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 30px;
+                        border-radius: 20px;
+                        box-shadow: 2px 2px 10px grey;
+                        margin-left: -30px;
+                        margin-top: 30px;
+                        margin-bottom: 30px;
+
+}
+
+.fonction-item-compose{
+                        background-color: #F2F2F2;
+                        width: 100%;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 30px;
+                        border-radius: 20px;
+                        box-shadow: 2px 2px 10px grey;
+                        margin-bottom: 30px;
+                        margin-left: -30px;
+}
+
+.fonction-item-eat{
+                    background-color: #F2F2F2;
+                    width: 100%;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 30px;
+                    border-radius: 20px;
+                    box-shadow: 2px 2px 10px grey;
+                    margin-bottom: 60px;
+                    margin-left: -30px;
+
+}
+
+.fonction-logo-txt{
+                    display: flex;
+                    align-items: center;
+                    list-style: none;
+                    margin-left: -10px;
+}
+
+.fonction-choose{
+                    padding-left: 25px;
+                    
+}
+
+.fonction-compose{
+    padding-left: 20px;
+}
+
+.fonction-eat{
+    padding-left: 20px;
+}
+
+
+/* SECTION 3 : RESTAURANTS */
+
+.restaurant{
+            background-color: #F2F2F2;
+            width: 100%;
+            padding-top: 30px;
+}
+
+
+.restaurant-title{
+                    padding-left: 20px;
+}
+
+
+
+/* .restaurant-newtag{
+
+                    color:#02ad88 ;
+                    background-color: #99E2D0;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    font-weight: 800;
+                    width: 100px;
+                    height: 20px;
+                    padding: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    bottom: 300px;
+                    margin-left: 280px;
+                    
+}  */
+
+figure{
+
+                background-color: white;
+                width: 100%;
+                border-radius: 20px ;
+                box-shadow: 2px 2px 10px grey;
+                margin-left: 0px ;           
+                line-height: 5px ;
+}
+
+figure:hover{
+    box-shadow: 2px 2px 20px rgb(172, 87, 172);
+
+} 
+
+figcaption{
+            padding-left: 15px;
+            color: black;
+            
+
+}
+
+.fa-heart-home{
+                position: relative;
+                left: 80%;
+                bottom: 40px;
+                font-size: 25px;  
+}
+
+.fa-heart:hover{
+                color: darkviolet;
+
+}
+
+
+.restaurant-img{
+                width: 100%;
+                height: 300px;
+                border-radius: 20px 20px 0 0 ;
+                object-fit: cover;
+
+
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+        background-color: black;
+        color: white;
+        width: 95%;
+        padding-left: 10px;
+}
+
+.footer-logo{
+                font-family: "Shrikhand";
+                font-size: 20px;
+                padding-top: 10px;
+}
+
+.footer-txt-logo{
+                    display: flex;
+                    align-items: center;
+
+}
+
+.footer-txt-propose{
+                    padding-left: 20px;
+                    margin: 0;
+}
+
+.footer-txt-partner{
+                    padding-left: 20px;
+                    margin-bottom: 5px;
+}
+
+
+
+/* AUTRES PAGES  */
+
+/* MENU  */
+
+.header-menu{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+}
+
+.header-logo-menu{
+                    width: 50%;
+                    padding-left: 20px;
+}
+
+.fa-arrow-left{
+                padding-left: 20px;
+                color: black;
+}
+
+.menu1-img{
+            width: 100%;
+}
+
+.menu-title-box{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+}
+
+.fa-heart-menu{
+                display: flex;
+                margin-right: 30px;
+                font-size: 20px;
+}
+
+.menu1-title{
+                font-family: "Shrikhand";
+                font-size: 23px;
+                margin-left: 20px;
+}
+
+.menu1-container{
+                    background-color: #F2F2F2;
+                    border-radius: 20px 20px 0 0 ;
+                    width: 100%;
+                    position: relative;
+                    top: -50px;
+}
+
+.menu1-category{
+                    border-bottom:#99E2D0 3px solid;
+                    width: 50px;
+                    padding-bottom: 5px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+}
+
+.menu1-item{
+            background-color: white;
+            box-shadow: 2px 2px 10px grey;
+            border-radius: 20px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            width: 90%;
+            
+}
+
+.menu1-item-name-title{
+                        font-size: 18px;
+                        margin-bottom: 0px;
+                        padding-top: 15px;
+}
+
+.menu1-item-name-txtprice{
+                            display: flex;
+                            justify-content: space-between;
+                            padding-right: 20px;
+}
+
+.fa-check-circle{
+                    color: #99E2D0;
+                    font-size: 30px;
+                    background-color: white;
+                    width: 5px;
+                    height: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all 1s linear;               
+}
+
+.fa-check-circle:hover{
+                        transform: rotate(360deg);
+}  
+
+
+
+.menu1-item-slidebox{
+                        background-color: #99E2D0;
+                        width: 1px;
+                        height: 60px;
+                        position: relative;
+                        bottom: 30px;
+                        left: 20px;
+                        transition: 1s linear;
+}
+
+
+.menu1-item-slidebox:hover{
+                            width: 50px;
+
+}
+
+
+/* .menu1-item-name-price{
+                        position: relative;
+                        left: 400px;
+                        bottom: 40px;
+} */
+
+
+
+/* BOUTON RECHERCHER */
+
+.menu1-btn{
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            background-image: linear-gradient(rgb(248, 77, 220), darkviolet);
+            width: 80%;
+            border: none;
+            border-radius: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            margin-left: 30px;
+            box-shadow: 2px 2px 10px grey;
+}
+
+.menu1-btn:hover{
+                    box-shadow: 5px 5px 40px rgb(206, 52, 206);
+
+            
+}
+
+
+/* FOOTER */
+
+.footer-contact{
+                color: white;
+}
+
+
+
+
+/* ----MEDIA QUERYS ---- */
+
+/* MEDIA QUERYS DESKTOP 1024px */
+
+/* @media (max-width: 1024px) {
+
+
+.header-logo{   
+        display: flex;
+        width: 20%;
+        object-fit: cover;
+        margin-bottom: 10px;        
+}
+
+
+.presentation-map-box{
+    display: none;
+}
+
+.presentation{
+    display: none;
+
+} */
+
+/* FONCTIONNEMENT */
+
+/* .fonction-item-btn{
+    display: flex;
+} 
+
+.fonction-box{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.fonction-item-choose{
+    background-color: #F2F2F2;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.fonction-item-compose{
+    background-color: #F2F2F2;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+    margin-bottom: 30px;
+}
+
+.fonction-item-eat{
+background-color: #F2F2F2;
+width: 100%;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 30px;
+padding-right: 20px;
+border-radius: 20px;
+box-shadow: 2px 2px 10px grey;
+margin-bottom: 60px;
+
+}
+
+.fonction-logo-txt{
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+.fonction-choose{
+padding-left: 20px;
+
+}
+
+.fonction-compose{
+padding-left: 20px;
+} 
+
+ .fonction-eat{
+padding-left: 20px;
+}  */
+
+/* RESTAURANTS */
+
+/* .menu-item-container{
+    display: flex;
+}
+
+
+
+
+} */
+
+
