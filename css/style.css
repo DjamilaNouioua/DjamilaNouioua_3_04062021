@@ -411,6 +411,22 @@ footer{
 
 
 
+
+/* .menu1-item-slidebox{
+                        animation: slider 0,5s linear;
+
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0); 
+    }
+
+    100%{ 
+         transform: translateX(-100px);
+    }
+} */
+
 .menu1-item-slidebox{
                         background-color: #99E2D0;
                         width: 1px;
@@ -425,14 +441,14 @@ footer{
 .menu1-item-slidebox:hover{
                             width: 50px;
 
-}
+} 
 
 
 /* .menu1-item-name-price{
                         position: relative;
                         left: 400px;
                         bottom: 40px;
-} */
+}  */
 
 
 
