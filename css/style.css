@@ -276,7 +276,7 @@ figcaption{
 footer{
         background-color: #353535 ;
         color: white;
-        width: 95%;
+        width: 98%;
         padding-left: 10px;
 }
 
@@ -327,7 +327,7 @@ footer{
                 color: black;
 }
 
-.menu1-img{
+.menu-img{
             width: 100%;
 }
 
@@ -344,13 +344,13 @@ footer{
                 font-size: 20px;
 }
 
-.menu1-title{
+.menu-title{
                 font-family: "Shrikhand";
                 font-size: 23px;
                 margin-left: 20px;
 }
 
-.menu1-container{
+.menu-container{
                     background-color: #F2F2F2;
                     border-radius: 20px 20px 0 0 ;
                     width: 100%;
@@ -358,7 +358,7 @@ footer{
                     top: -50px;
 }
 
-.menu1-category{
+.menu-category{
                     border-bottom:#99E2D0 3px solid;
                     width: 50px;
                     padding-bottom: 5px;
@@ -366,7 +366,7 @@ footer{
                     margin-top: 20px;
 }
 
-.menu1-item{
+.menu-item{
             background-color: white;
             box-shadow: 2px 2px 10px grey;
             border-radius: 20px;
@@ -374,25 +374,40 @@ footer{
             margin-bottom: 15px;
             padding-left: 10px;
             width: 90%;
+            position: relative;
+            display: flex;
+            overflow: hidden;
+
             
 }
 
-.menu1-item-name-title{
+.menu-item:hover .fa-check-circle{
+    transform: rotate(360deg);
+
+}
+
+.menu-item-name-title{
                         font-size: 18px;
                         margin-bottom: 0px;
                         padding-top: 15px;
 }
 
-.menu1-item-name-txtprice{
+/* .menu-item-name-txtprice{
                             display: flex;
-                            justify-content: space-between;
-                            padding-right: 20px;
-}
+                            justify-content: center;
+                            align-items: flex-end;
+
+}  */
+
+.menu-item-name-price{
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: flex-end;
+} 
 
 .fa-check-circle{
-                    color: #99E2D0;
+                    color: white;
                     font-size: 30px;
-                    background-color: white;
                     width: 5px;
                     height: 10px;
                     display: flex;
@@ -404,57 +419,49 @@ footer{
 
 
 
-
-.fa-check-circle:hover{
-                        transform: rotate(360deg);
-}  
-
-
-
-
-/* .menu1-item-slidebox{
-                        animation: slider 0,5s linear;
-
+.menu-item:hover .menu-item-slidebox{
+    right: 0px;
 }
 
-@keyframes slider {
-    0% {
-        transform: translateX(0); 
-    }
 
-    100%{ 
-         transform: translateX(-100px);
-    }
-} */
-
-.menu1-item-slidebox{
+.menu-item-slidebox{
                         background-color: #99E2D0;
-                        width: 1px;
-                        height: 60px;
-                        position: relative;
-                        bottom: 30px;
-                        left: 20px;
+                        width: 50px;
+                        height: 100%;
+                        position: absolute;
+                        right: -50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                         transition: 1s linear;
 }
 
+.appetizer{
+        animation: show .5s linear;
+}
 
-.menu1-item-slidebox:hover{
-                            width: 50px;
+@keyframes show {
 
-} 
+    0%{
+        transform: translateY(100px);
+        opacity: 30%;
+    }
+    
+
+    100%{ transform: translateY(0px);
+    }
+
+}
 
 
-/* .menu1-item-name-price{
-                        position: relative;
-                        left: 400px;
-                        bottom: 40px;
-}  */
+
+
 
 
 
 /* BOUTON RECHERCHER */
 
-.menu1-btn{
+.menu-btn{
             color: white;
             font-weight: bold;
             font-size: 15px;
@@ -470,7 +477,7 @@ footer{
             box-shadow: 2px 2px 10px grey;
 }
 
-.menu1-btn:hover{
+.menu-btn:hover{
                     box-shadow: 5px 5px 40px rgb(206, 52, 206);
 
             
@@ -485,7 +492,7 @@ footer{
 
 /* MEDIA QUERYS DESKTOP 1024px */
 
-/* @media (max-width: 1024px) {
+/* @media (min-width: 1024px) {
 
 
 .header-logo{   
