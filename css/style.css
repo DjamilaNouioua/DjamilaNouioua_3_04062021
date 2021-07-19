@@ -363,7 +363,7 @@ footer{
                 margin-right: 30px;
                 margin-top: -20px;
                 font-size: 20px;
-                color: blueviolet;
+                color: darkviolet;
                 animation: fill 1s linear ;
 }
 
@@ -381,8 +381,6 @@ footer{
 }
 
 }
-
-
 
 
 .menu-title{
@@ -419,12 +417,6 @@ footer{
             display: flex;
             overflow: hidden;
 
-            
-}
-
-.menu-item:hover .fa-check-circle{
-    transform: rotate(360deg);
-
 }
 
 .menu-item-name-title{
@@ -444,9 +436,8 @@ footer{
                         display: flex;
                         justify-content: flex-end;
                         align-items: flex-end;
+                        
 } 
-
-
 
 .fa-check-circle{
                     color: white;
@@ -456,16 +447,13 @@ footer{
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    transition: all 1s linear;               
+                    transition: all .5s linear;               
 } 
 
+.menu-item:hover .fa-check-circle{
+    transform: rotate(360deg);
 
-
-
-.menu-item:hover .menu-item-slidebox{
-    right: 0px;
 }
-
 
 .menu-item-slidebox{
                         background-color: #99E2D0;
@@ -476,7 +464,11 @@ footer{
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        transition: 1s linear;
+                        transition: .5s linear;
+}
+
+.menu-item:hover .menu-item-slidebox{
+    right: 0px;
 }
 
 .appetizer{
@@ -553,8 +545,6 @@ footer{
 
 .menu-btn:hover{
                     box-shadow: 5px 5px 40px rgb(206, 52, 206);
-
-            
 }
 
 
