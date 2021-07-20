@@ -11,6 +11,14 @@ a{
     text-decoration: none;
 }
 
+
+.hero-img{
+    display: none;
+}
+
+
+
+
 /* LOADING SPINNER TEST */
  /* .loading{
     width: 50px;
@@ -351,9 +359,13 @@ footer{
     opacity: 100%;
 }
 
+50%{
+    opacity: 50%;
+}
+
 100%{
     opacity: 0%;
-}
+} 
 
 }
 
@@ -364,7 +376,7 @@ footer{
                 margin-top: -20px;
                 font-size: 20px;
                 color: darkviolet;
-                animation: fill 1s linear ;
+                animation: fill 2s linear ;
 }
 
 
@@ -374,6 +386,17 @@ footer{
     opacity: 0%;
 }
 
+25%{
+    opacity: 25%;
+}
+
+50%{
+    opacity: 50%;
+}
+
+75%{
+    opacity: 75%;
+}
 
 100%{ 
     opacity: 100%;
@@ -415,29 +438,30 @@ footer{
             width: 90%;
             position: relative;
             display: flex;
-            overflow: hidden;
+            overflow: hidden; 
 
 }
 
 .menu-item-name-title{
                         font-size: 18px;
                         margin-bottom: 0px;
-                        padding-top: 15px;
 }
 
-/* .menu-item-name-txtprice{
+
+.menu-item-name-txtprice{
                             display: flex;
-                            justify-content: center;
+                            justify-content: flex-end;
                             align-items: flex-end;
 
-}  */
+}  
 
-.menu-item-name-price{
+/* .menu-item-name-price{
                         display: flex;
                         justify-content: flex-end;
-                        align-items: flex-end;
+                        align-items: flex-end; 
+                        margin-left: 50%;
                         
-} 
+}  */
 
 .fa-check-circle{
                     color: white;
@@ -495,9 +519,11 @@ footer{
 0%{
     transform: translateY(100px);
     opacity: 30%;
-    animation-delay: .5s;
+    animation-delay: .5s; 
 
 }
+
+
 
 100%{ transform: translateY(0px);
     animation-delay: .5s;
@@ -556,7 +582,7 @@ footer{
 
 /* MEDIA QUERYS DESKTOP 1024px */
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
 
 .header-logo{   
@@ -566,25 +592,66 @@ footer{
         margin-bottom: 10px;        
 }
 
+.hero-img{
+        display: flex;
+        width: 100%;
+        height: 50%;
+}
 
 .presentation-map-box{
-    display: none;
+    width: 50%;
+    display: flex;
+    margin-left: 50%;
+    margin-top: -45px;
+    background-color: white;
+    
 }
 
 .presentation{
-    display: none;
+    position: relative;
+    top: -130px;
+    height: 100px;
+    background-color: rgba(253, 253, 253, 0.521);
 
-} */
+} 
+
+.presentation-title{
+    font-size: 30px;
+    display: flex;
+    padding-top: 30px;
+}
+
+.presentation-txt{
+    font-size: 15px;
+    margin-top: -20px;
+    display: flex;
+}
+
+
+.presentation-btn{
+    width: 40%;
+    font-size: 17px;
+    position: relative;
+    top: -70px;
+    left: 25%;
+    
+    
+}
 
 /* FONCTIONNEMENT */
 
-/* .fonction-item-btn{
+.fonction-title{
+    margin-top: -100px;
+}
+
+.fonction-item-btn{
     display: flex;
 } 
 
 .fonction-box{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -598,8 +665,8 @@ footer{
     border-radius: 20px;
     box-shadow: 2px 2px 10px grey;
     margin-left: 0px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 
@@ -612,7 +679,7 @@ footer{
     padding-right: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px grey;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .fonction-item-eat{
@@ -624,7 +691,7 @@ padding-left: 30px;
 padding-right: 20px;
 border-radius: 20px;
 box-shadow: 2px 2px 10px grey;
-margin-bottom: 60px;
+margin-bottom: 0px;
 
 }
 
@@ -645,17 +712,26 @@ padding-left: 20px;
 
  .fonction-eat{
 padding-left: 20px;
-}  */
+} 
 
 /* RESTAURANTS */
 
-/* .menu-item-container{
-    display: flex;
+
+.restaurant{
+            background-color: white;
+}
+
+.menu-item-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+
 }
 
 
 
 
-} */
+} 
 
 
