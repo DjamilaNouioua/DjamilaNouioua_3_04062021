@@ -346,11 +346,11 @@ footer{
                 width: 100%;
 }
 
-.fa-heart-menu{
+.fa-heart-menu:hover{
                 display: flex;
                 margin-right: 30px;
                 font-size: 20px;
-                animation: full 1s linear;
+                animation: full 1s linear;   
 }
 
 @keyframes full {
@@ -359,9 +359,6 @@ footer{
     opacity: 100%;
 }
 
-50%{
-    opacity: 50%;
-}
 
 100%{
     opacity: 0%;
@@ -409,7 +406,7 @@ footer{
 .menu-title{
                 font-family: "Shrikhand";
                 font-size: 23px;
-                margin-left: 20px;
+                margin-left: 20px; 
 }
 
 .menu-container{
@@ -602,7 +599,7 @@ footer{
 }
 
 .presentation-map-box{
-    width: 50%;
+    width: 40%;
     display: flex;
     margin-left: 60%;
     margin-top: -45px;
@@ -735,20 +732,18 @@ padding-left: 20px;
 } 
 
 /* MENU */
-/* 
-.menu-img{
-    height: 20%;
-} */
 
-
-
-/* 
-.menu-container{
+.menu-food-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+}
 
-} */
+.menu-item-name-title{
+    font-size: 17px;
+}
+
+
+
 
  
 
