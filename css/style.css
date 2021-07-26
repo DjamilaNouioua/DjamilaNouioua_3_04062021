@@ -360,12 +360,12 @@ footer{
 }
 
 
-100%{
+100%{ 
     opacity: 0%;
 } 
 
 }
-
+ 
 
 .fa-heart{
                 display: flex;
@@ -590,7 +590,7 @@ footer{
         margin-top: 15px;
         margin-bottom: 10px;
         padding-left: 0px;        
-}
+} 
 
 .hero-img{
         display: flex;
@@ -652,6 +652,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: -15px;
 
 }
 
@@ -742,6 +743,11 @@ padding-left: 20px;
     font-size: 17px;
 }
 
+.menu-btn{
+    width: 50%;
+    margin-left: 25%;
+    
+}
 
 
 
