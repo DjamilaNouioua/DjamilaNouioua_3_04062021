@@ -60,8 +60,8 @@ a{
 
 .fa-map-marker-alt{
                     font-size: 20px;
-                    padding-left: 30px;
-                    padding-right: 20px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                     
 }
 
@@ -104,7 +104,7 @@ a{
 /* SECTION 2 : FONCTIONNEMENT */
 
 .fonction-title{
-                margin-left: 20px;
+                margin-left: 10px;
 }
 
 
@@ -208,29 +208,20 @@ color: darkviolet;
 
 
 .restaurant-title{
-                    padding-left: 20px;
+                    padding-left: 10px;
 }
 
 
 
-/* .restaurant-newtag{
-
+.restaurant-newtag{
                     color:#02ad88 ;
                     background-color: #99E2D0;
-                    border-radius: 5px;
-                    font-size: 20px;
-                    font-weight: 800;
-                    width: 100px;
-                    height: 20px;
-                    padding: 5px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: relative;
-                    bottom: 300px;
-                    margin-left: 280px;
-                    
-}  */
+                    border-radius: 2px;
+                    padding: 10px;
+                    position: absolute;
+                    left: 230px;
+                    bottom: -250px;
+} 
 
 figure{
 
@@ -259,7 +250,8 @@ figcaption{
                 left: 80%;
                 bottom: 40px;
                 font-size: 25px;  
-}
+} 
+
 
 .fa-heart:hover{
                 color: darkviolet;
@@ -269,7 +261,7 @@ figcaption{
 
 .restaurant-img{
                 width: 100%;
-                height: 300px;
+                height: 250px;
                 border-radius: 20px 20px 0 0 ;
                 object-fit: cover;
 
@@ -284,7 +276,7 @@ figcaption{
 footer{
         background-color: #353535 ;
         color: white;
-        width: 98%;
+        width: 97%;
         padding-left: 10px;
 }
 
@@ -337,6 +329,9 @@ footer{
 
 .menu-img{
             width: 100%;
+            height: 500px;  
+            object-fit: cover;
+
 }
 
 .menu-title-box{
@@ -442,8 +437,17 @@ footer{
 .menu-item-name-title{
                         font-size: 18px;
                         margin-bottom: 0px;
+                        text-overflow: ellipsis;
+                        overflow: hidden; 
+                        
+
 }
 
+.menu-item-name-txt{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+
+}
 
 .menu-item-name-txtprice{
                             display: flex;
@@ -452,13 +456,15 @@ footer{
 
 }  
 
+
+
 /* .menu-item-name-price{
-                        display: flex;
+                        display: flex; 
                         justify-content: flex-end;
                         align-items: flex-end; 
                         margin-left: 50%;
                         
-}  */
+}  */ 
 
 .fa-check-circle{
                     color: white;
@@ -751,5 +757,11 @@ padding-left: 20px;
 
 
 
- 
+/* MEDIQUERYS MOBILE ET TABLETTE */
+
+ @media (max-width: 480px) and (max-width:1023px) {
+
+
+
+ }
 
