@@ -19,7 +19,7 @@ a{
 
 /* LOADING SPINNER TEST */
 
-.loader{
+/* .loader{
     width: 100%;
     height: 100%;
     position: fixed; 
@@ -53,7 +53,7 @@ a{
     to {
         transform: rotate(1turn);
     }
-}  
+}   */
 
 /* HEADER */
 
@@ -262,20 +262,26 @@ figure:hover{
 figcaption{
             padding-left: 15px;
             color: black;
+            height: 50px;
             
 
 }
 
-.fa-heart-home{
+.heart-menu{
                 position: relative;
                 left: 80%;
                 bottom: 40px;
-                font-size: 25px;  
-} 
+                font-size: 25px; 
+
+}
+
+             
 
 
 .fa-heart:hover{
-    color: #9356DC;
+                    color: transparent;
+                    background: linear-gradient(#FF79DA, #9356DC);
+                    -webkit-background-clip : text;
 }
 
 
@@ -438,7 +444,11 @@ footer{
             position: relative;
             display: flex;
             overflow: hidden; 
+            justify-content: space-between;
+}
 
+.menu-item:hover  .menu-item-name-txt, .menu-item:hover  .menu-item-name-title , .menu-item:hover  .menu-item-name  {
+width: 70% ;
 }
 
 .menu-item-name-title{
@@ -446,13 +456,13 @@ footer{
                         margin-bottom: 0px;
                         text-overflow: ellipsis;
                         overflow: hidden; 
-                        
-
+                        white-space: nowrap;
 }
 
 .menu-item-name-txt{
                     text-overflow: ellipsis;
                     overflow: hidden;
+                    white-space: nowrap;
 
 }
 
@@ -460,19 +470,13 @@ footer{
                             display: flex;
                             justify-content: flex-end;
                             align-items: flex-end;
-                            width: 10%;
-
+                            margin-right: 10px;
 }  
 
+.menu-item:hover  .menu-item-name-price{
+    margin-right: 55px;
 
-
-/* .menu-item-name-price{
-                        display: flex; 
-                        justify-content: flex-end;
-                        align-items: flex-end; 
-                        margin-left: 50%;
-                        
-}   */
+}
 
 .fa-check-circle{
                     color: white;
@@ -505,6 +509,8 @@ footer{
 .menu-item:hover .menu-item-slidebox{
     right: 0px;
 }
+
+
 
 .appetizer{
         animation: show .5s linear;
@@ -767,7 +773,7 @@ padding-left: 20px;
 
 
 
-/* MEDIQUERYS TABLETTE */
+/* MEDIAQUERYS TABLETTE */
 
  @media (min-width: 480px) and (max-width:1023px) {
 
