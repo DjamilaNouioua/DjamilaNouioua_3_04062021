@@ -149,9 +149,7 @@ a{
                         box-shadow: 2px 2px 10px grey;
                         margin: auto;
                         margin-bottom: 30px;
-                        /* margin-left: -30px;
-                        margin-top: 30px;
-                        margin-bottom: 30px; */
+                        
 
 }
 
@@ -462,8 +460,6 @@ width: 70% ;
 .fa-check-circle{
                     color: white;
                     font-size: 30px;
-                    width: 5px;
-                    height: 10px;
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -544,7 +540,7 @@ width: 70% ;
 
 
 .btn{
-    text-align: center;
+    text-align: center; 
 }
 
 .menu-btn{
@@ -553,12 +549,14 @@ width: 70% ;
             font-size: 15px;
             background-image: linear-gradient(#FF79DA, #9356DC);
             box-shadow: 2px 2px 10px grey;
-            width: 60%;
+            width: 50%;
+            max-width: 200px;
             border: none;
             border-radius: 30px;
             padding : 20px;
             margin-top: 20px;
             margin-bottom: 40px;
+            text-align: center;
 }
 
 .menu-btn:hover{
@@ -569,9 +567,9 @@ width: 70% ;
 
 /* ----MEDIA QUERYS ---- */
 
-/* MEDIA QUERYS DESKTOP 1024px */
+/* MEDIA QUERYS DESKTOP 1280px */
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
 
 
 .header-logo{   
@@ -583,6 +581,10 @@ width: 70% ;
         margin-bottom: 10px;
         padding-left: 0px;        
 } 
+
+.header-logo-menu{
+    margin: auto;
+}
 
 .hero-img{
         display: flex;
@@ -657,7 +659,7 @@ width: 70% ;
     padding-right: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px grey;
-    margin-left: 0px;
+    margin-left: 40px;
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -685,6 +687,7 @@ padding-right: 20px;
 border-radius: 20px;
 box-shadow: 2px 2px 10px grey;
 margin-bottom: 0px;
+margin-right: 20px;
 
 }
 
@@ -733,16 +736,19 @@ padding-left: 20px;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.menu-item-name-title{
+.menu-item-name-title{ 
     font-size: 17px;
 }
 
 .menu-btn{
     width: 40%;
-    margin-left: 30%;
     
 }
 
+
+.btn{
+    text-align: center;
+}
 
 } 
 
